@@ -1,27 +1,27 @@
 calcularSaldo(150, 30)
 
 function calcularSaldo(vitorias, derrotas){
-    calcularSaldo = vitorias - derrotas
+    let saldoVitorias = vitorias - derrotas
     let rank;
 
 
-    if (calcularSaldo <= 10){
+    if (saldoVitorias <= 10){
         rank = "Ferro"
-    } else if (calcularSaldo >= 11 && calcularSaldo <= 20){
+    } else if (saldoVitorias >= 11 && saldoVitorias <= 20){
         rank = "Bronze"
-    } else if (calcularSaldo >= 21 && calcularSaldo <= 50){
+    } else if (saldoVitorias >= 21 && saldoVitorias <= 50){
         rank = "Prata"
-    } else if (calcularSaldo >= 51 && calcularSaldo <= 80){
+    } else if (saldoVitorias >= 51 && saldoVitorias <= 80){
         rank = "Ouro"
-    } else if (calcularSaldo >= 81 && calcularSaldo <= 90){
+    } else if (saldoVitorias >= 81 && saldoVitorias <= 90){
         rank = "Diamante"
-    } else if (calcularSaldo >= 91 && calcularSaldo <= 100){
+    } else if (saldoVitorias >= 91 && saldoVitorias <= 100){
         rank = "Lendário"
     }else {
-        (calcularSaldo >= 101)
+        (saldoVitorias >= 101)
         rank = "Imortal"
 
-    console.log("O Herói tem de saldo de " + calcularSaldo + " vitorias e está no nível de " + rank)
+    console.log("O Herói tem saldo de " + saldoVitorias + " vitorias e está no nível de " + rank)
     }
 }
 
