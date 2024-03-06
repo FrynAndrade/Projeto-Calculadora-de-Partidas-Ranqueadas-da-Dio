@@ -22,6 +22,6 @@ function calcularSaldo(vitorias, derrotas){
         rank = "Imortal"
 
     console.log("O Herói tem de saldo de " + calcularSaldo + " vitorias e está no nível de " + rank)
-}
+    }
 }
 
